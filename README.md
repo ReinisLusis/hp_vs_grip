@@ -8,7 +8,10 @@ An interactive visualization tool that demonstrates the relationship between hor
 
 ## Quick Start
 
-You can directly open the [standalone HTML file](dist/index.html) in your browser - no server required!
+You can directly access the calculator in two ways:
+
+1. [Open Calculator (Raw HTML)](https://raw.githubusercontent.com/ReinisLusis/hp_vs_grip/refs/heads/main/dist/index.html) - Right-click and select "Save As" to download, then open locally
+2. [View Source](https://github.com/ReinisLusis/hp_vs_grip/blob/main/dist/index.html) - View the source code on GitHub
 
 ## Development
 
@@ -29,5 +32,9 @@ npm run dev
 npm run build
 ```
 
-The build will create a single self-contained HTML file in `dist/index.html` that includes all JavaScript and CSS.
+The build will create a single self-contained HTML file that includes all JavaScript and CSS.
+
+## Note
+
+Due to GitHub's raw file serving limitations, you'll need to download the HTML file first and open it locally. This is because GitHub serves raw files with a `Content-Type: text/plain` header, which prevents browsers from executing it directly.
 ```bash
